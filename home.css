@@ -1,0 +1,298 @@
+*{
+    margin: auto 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18px 24px;
+}
+
+.logo{
+    width: 160px;
+    height: 38px;
+}
+
+.green-btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: #34A853;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.jumbotron{
+    text-align: center;
+    max-width: 60%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.jumbotron h1{
+    font-size: 48px;
+    color: #101828;
+    font-weight: 800;
+}
+
+.jumbotron p{
+    font-size: 16px ;
+    color: #667685;
+    padding: 20px 0;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.jumbotron a{
+    text-decoration: none;
+    background-color: #12B76A;
+    border: 1px solid #000;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.pictures{
+    margin: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width: 300px;
+    height: 337.5px;
+}
+
+.image1{
+    width: 300px;
+    height: 337.5px;
+    margin: 0 25px;
+}
+.legacy{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    margin:20px 60px;
+
+}
+
+.legacy-h3{
+    color: #374151;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.legacy-h1{
+    color: #111827;
+    font-size: 36px;
+    margin: 18px 0;
+}
+
+.legacy-p{
+    color: #4B5563;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+.legacy-text{
+    max-width: 50%;
+}
+
+.work{
+    background-color: #22c55e;
+
+}
+.work-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:  50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 ;
+    width: 70%;
+    margin: 50px auto;
+}
+
+.card{
+    width: 325.33px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 24px;
+}
+
+.card-first{
+    width: 325.33px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 24px;
+}
+.border{
+    border: 1px solid rgb(216, 216, 216);
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.blue-circle{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(87, 87, 255);
+    border-radius: 50%;
+}
+
+.red-circle{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(218, 7, 7);
+    border-radius: 50%;
+}
+
+/* .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 237, 237);
+    padding: 10px;
+} */
+
+.flex{
+    display: flex;
+    border-radius: 7px;
+    align-items: center;
+    background-color: rgb(238, 237, 237);
+    padding: 10px;
+}
+.card-text{
+    font-size: 14px; 
+    margin: 15px; 
+    text-align: center; 
+    color: #1F2937;
+}
+
+.card-head{
+    font-size: 20px; 
+    margin: 10px; 
+    text-align: center; 
+    color: #1F2937;
+    font-weight: 700;
+}
+
+.button{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button a{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    background-color: #fff;
+    max-width: 176.19;
+    max-height: 48;
+    color: #16a34a;
+    padding: 12px 24px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.choose h1{
+    text-align: center;
+    margin: 50px 0
+}
+.choose-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.choose-cards div{
+    width: 363px;
+    height: 250px;
+    padding: 40px 30px;
+    background-color: #f6f6f9;
+    border-radius: 10px;
+    margin: 20px ;
+}
+@media(max-width: 767px) {
+.logo{
+    width: 100px;
+    height: 30px;
+}
+.green-btn{
+    font-size: 14px;
+}
+.jumbotron{
+    margin: 0 5px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.jumbotron h1{
+    font-size: 28px;
+}
+.jumbotron p{
+    font-size: 16px;
+}
+.pictures{
+    flex-direction: column;
+}
+.image1{
+    margin: 10px 0;
+}
+.legacy{
+    flex-direction: column;
+}
+.legacy-text{
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.card{
+    width: 100%;
+    height: 100%;    
+    margin-top: 20px;
+}
+
+.card-first{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto 20px auto;
+    padding: aut0;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.choose-cards div{
+    width: 100%;
+}
+}
